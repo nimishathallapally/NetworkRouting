@@ -1,0 +1,7 @@
+In today's increasingly complex networking environments, the need for efficient and adaptive routing protocols is important. This project aims to develop a dynamic network routing protocol that optimizes data paths in real-time by utilizing shortest path algorithms, specifically Dijkstra's and Bellman-Ford.
+
+The implementation will adapt to changes in network topology, such as varying traffic loads and node failures, ensuring reliable and efficient data transmission. Dijkstra’s algorithm will be employed in scenarios with non-negative weights to provide quick and optimal routing paths, while Bellman-Ford will be utilized for networks that may include negative weights, offering greater flexibility in handling dynamic changes.
+
+Although the Floyd-Warshall algorithm could theoretically be used for all-pairs shortest path calculations, its implementation in dynamic network routing is costly and not suitable for real-time applications where efficiency, responsiveness to changes, and memory usage are critical factors..
+
+To demonstrate the effectiveness of the proposed protocol, a Python code implementation will be provided. This code will simulate the dynamic routing process, allowing users to visualize how the algorithms respond to changes in the network and optimize path selection accordingly.
